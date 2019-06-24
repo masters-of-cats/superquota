@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	if len(os.Args) != 4 {
+	if len(os.Args) != 5 {
 		fmt.Printf("Usage: %s <proj_id> <quota_bytes> <absolute_mountpoint_path> <ablosute_project_dir_path>\n", os.Args[0])
 		os.Exit(1)
 	}
